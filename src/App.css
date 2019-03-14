@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+ 
+}
+
+body{
+  background: black
 }
 
 .App-logo {
@@ -31,3 +36,117 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  background: rgb(16, 182, 238);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 700;
+  
+
+}
+
+.white-box{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+
+ height: 22rem;
+ margin: 6rem 6rem 0 6rem;
+
+
+}
+
+.left-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.right-box {
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.name-line{
+  border-bottom: 2px rgb(61, 196, 241) solid;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+.from-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.movies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.job-title{
+  margin-top: 7px;
+}
+
+.employer{
+  margin-top: 7px;
+}
+
+.mov1{
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.mov2{
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.mov3{
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.buttons {
+  background-color: black;
+  display: flex;
+ 
+  
+  justify-content: space-between;
+
+ height: 2rem;
+ margin: 10px 6rem;
+
+
+ 
+}
+
+.butt{
+  background-color: black;
+  color: white;
+  border: black;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
